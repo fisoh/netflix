@@ -1,0 +1,59 @@
+.main{
+  background-image: url("images/netflix.jpg");
+  color: white;
+
+
+}
+h1{
+    font-weight: 900;
+}
+body{
+    font-family: sans-serif;
+    background-color: grey;
+    line-height: 200%;
+}
+.second{
+    background-color: black;
+    color: white;
+}
+.third{
+    background-color: black;
+    color: white;
+}
+.fourth{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    line-height: 200%;
+}
+a{
+    color: lightgrey;
+}
+@media screen and (max-width: 750px){
+
+.second{
+    text-align: center;
+
+}
+.third{
+    text-align: center;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+}
+input{
+    height: 40px;
+    width: 300px;
+    background-color: rgb(80, 79, 79);
+    border-radius: 8px;
+}
+::placeholder{
+    color: white;
+}
